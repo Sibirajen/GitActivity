@@ -1,6 +1,7 @@
 # GitHub Activity Tracker
 
 This is a simple Java application that fetches and analyzes a GitHub user's recent activity using the GitHub Events API.
+
 This project is a challenge from [GitHub User Activity](https://roadmap.sh/projects/github-user-activity)
 
 ## Prerequisites
