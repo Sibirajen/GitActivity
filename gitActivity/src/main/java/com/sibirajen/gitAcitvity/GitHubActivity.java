@@ -34,7 +34,7 @@ public class GitHubActivity
         HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
         
         Gson gson = new Gson();
-        TypeToken<List<Event>> eventType = new TypeToken<List<Event>>() {};
+        TypeToken<List<Event>> eventType = new TypeToken<>() {};
         List<Event> events = gson.fromJson(response.body(), eventType);
         
         HashMap<String,Integer> map = new HashMap<>();
